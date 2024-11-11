@@ -19,18 +19,10 @@ const myElement3 = (
   </ul>
  );
 root.render(
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>
-  // myElement
-  
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 
-  // myElement3
-  <>
-  {myElement4}
-  {myElement5}
-  <div style={ {color : 'blue', fontSize : '30px'} }> 글씨 </div>
-  </>
 );
 
 // If you want to start measuring performance in your app, pass a function

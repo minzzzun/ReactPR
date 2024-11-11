@@ -1,12 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Comp1 extends Component {
-  render() {
-    return (
-      <div>
-        hello 
-        
-      </div>
-    )
-  }
+export default function Comp1() {
+  return (
+    <div>
+      Rfc 만들기
+    </div>
+  )
 }
+
