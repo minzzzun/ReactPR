@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+// import { useState } from 'react';
 import './App.css';
 import Comp1 from './Comp1';
 import Comp2 from './Comp2';
@@ -7,7 +7,8 @@ import Comp3 from './Comp3';
 
 
 import Hook from './component/Hook';
-
+// import UseStateInput from './component/UseStateInput';
+import UseStatePR from './component/UseStatePR';
 function UserProfile(props) {
   return (
     <div>
@@ -66,6 +67,8 @@ function App() {
         <Comp2/>
         <Comp3/> */}
         <Hook/>
+        {/* <UseStateInput/> */}
+        <UseStatePR/>
     </div>
   );
 }
