@@ -5,8 +5,8 @@ import Comp1 from './Comp1';
 import Comp2 from './Comp2';
 import Comp3 from './Comp3';
 
-import Router from './component/Router';
 
+import Hook from './component/Hook';
 
 function UserProfile(props) {
   return (
@@ -65,7 +65,7 @@ function App() {
         <Comp1/>
         <Comp2/>
         <Comp3/> */}
-      <Router/>
+        <Hook/>
     </div>
   );
 }
