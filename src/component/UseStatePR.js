@@ -16,6 +16,14 @@ export default function UseStatePR() {
     }));
   };
 
+  const setBirth = (e) => {
+    const {value} = e.target;
+    setInput((prevInput) => ({
+      ...prevInput,
+      birth : value,
+    }));
+  }
+
   return (
     <>
       <input
@@ -24,8 +32,17 @@ export default function UseStatePR() {
         type="text"
         onChange={setName} // onChange 이벤트로 변경
       />
+      <div></div>
+      <input
+        value={input.birth}
+        placeholder="생일을 입력하세요"
+        type="date"
+        onChange={setBirth} // onChange 이벤트로 변경
+      />
 
+    
       <div>{input.name}</div>
+      <div>{input.birth}</div>
     </>
   );
 }
